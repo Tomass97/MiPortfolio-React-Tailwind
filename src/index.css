@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.degradado2 {
+  background: -webkit-linear-gradient(#154799 0%, #a5b2b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.active {
+  background-color: #5a8bd9;
+  color: white;
+}
+
+.fondo {
+  background-image: url('../public/fondo.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
